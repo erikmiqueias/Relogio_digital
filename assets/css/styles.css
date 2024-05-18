@@ -16,13 +16,21 @@ body {
 
 .rel {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     align-items: center;
     height: 200px;
     width: 600px;
     background: black;
     color: #fff;
     border-radius: 5px;
+}
+
+.main-rel {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    gap: 60px;
 }
 
 #time-style {
@@ -42,5 +50,13 @@ body {
     text-transform: uppercase;
     color: #515452;
     margin: 0 auto;
+}
+
+#date-style {
+    font-size: 10px;
+    position: relative;
+    z-index: 1;
+    margin: 1rem auto;
+    color: #515452;
 }
 
